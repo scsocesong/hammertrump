@@ -102,7 +102,7 @@ function endGame() {
 
   const rating = getRating(score);
   overlayTitle.textContent = `${rating} 级锤法`;
-  overlayText.textContent = `恭喜，把油价打下来了！最终油价 $${getLastOilPrice()}，最终分数 ${score}。`;
+  overlayText.textContent = "把油价打下来了！";
   overlayButton.textContent = "再敲一局";
   overlay.classList.add("show");
   playEndSound();

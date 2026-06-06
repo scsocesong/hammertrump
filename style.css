@@ -868,13 +868,13 @@ h1 {
   }
 
   .stage {
-    min-height: 430px;
+    min-height: 560px;
   }
 
   .board {
-    width: 98%;
+    width: 96%;
     gap: clamp(16px, 5vw, 30px);
-    margin-top: 30px;
+    margin-top: clamp(128px, 31vw, 180px);
   }
 
   .hint {
